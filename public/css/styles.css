@@ -1,0 +1,603 @@
+.container-fluid {
+    padding: 1% 10%;
+}
+
+.navbar-brand {
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 1.5rem;
+}
+
+/* -
+----------------------------------------------
+--                                          --
+--          Herosection CSS                 --
+--                                          --
+----------------------------------------------
+- */
+.container-fluid {
+    padding: 1% 2%;
+}
+
+.creator {
+    font-weight: 500;
+}
+
+img{
+    width: 30%;
+    position: relative;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .hero-title {
+        text-align: center;
+        position: relative;
+        padding: 50% 0;
+        z-index: 1;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .robert {
+        font-family: 'Outfit', sans-serif;
+        width: 60%;
+        margin: 5% auto;
+        display: flex;
+        text-align: center;
+    }
+    
+    .roles {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 100;
+        width: 100%;
+        margin: auto;
+    }
+    
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .hero-title {
+        text-align: center;
+        position: relative;
+        padding: 20% 0;
+        z-index: 1;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .robert {
+        font-family: 'Outfit', sans-serif;
+        width: 60%;
+        margin: 5% auto;
+        display: flex;
+        text-align: center;
+    }
+    
+    .roles {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 100;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .hero-title {
+        text-align: center;
+        position: relative;
+        padding: 15% 0;
+        z-index: 1;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .robert {
+        font-family: 'Outfit', sans-serif;
+        width: 60%;
+        margin: 5% auto;
+        display: flex;
+        text-align: center;
+    }
+    
+    .roles {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 100;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .hero-title {
+        text-align: center;
+        position: relative;
+        padding: 10% 0;
+        z-index: 1;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .robert {
+        font-family: 'Outfit', sans-serif;
+        width: 60%;
+        margin: 5% auto;
+        display: flex;
+        text-align: center;
+    }
+    
+    .roles {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 100;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1401px){
+    .hero-title {
+        text-align: center;
+        position: relative;
+        padding: 10% 0;
+        z-index: 1;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .robert {
+        font-family: 'Outfit', sans-serif;
+        width: 30%;
+        margin: 5% auto;
+        display: flex;
+        text-align: center;
+    }
+    
+    .roles {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 100;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+@media (max-width: 576px) {
+   
+
+    .robert {
+        
+        font-size: 3rem;
+        line-height: 2.5rem;
+        
+    }
+
+    .roles {
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+   
+
+    .robert {
+        
+        font-size: 4rem;
+        line-height: 3.2rem;
+        
+    }
+
+    .roles {
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+   
+
+    .robert {
+        
+        font-size: 5rem;
+        line-height: 3.7rem;
+        
+    }
+
+    .roles {
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+@media (min-width: 993px) {
+   
+
+    .robert {
+        
+        font-size: 8rem;
+        line-height: 6rem;
+        
+    }
+
+    .roles {
+        font-size: 2rem;
+    }
+
+    
+}
+
+@media (max-width:576px) {
+    .pink-stem {
+        top: 200px;
+        rotate: -40deg;
+        position: absolute;
+    }
+    
+    .yellow-stem {
+        top: 450px;
+        rotate: 20deg;
+        right: 0px;
+        position: absolute;
+    }
+    
+    .two-pinks {
+        top: 200px;
+        right: 0px;
+        position: absolute;
+        width: 15%;
+    }
+    
+    .purple-stem {
+        top: 350px;
+        left: 30px;
+        position: absolute;
+        width: 20%;
+    
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .pink-stem {
+        top: 200px;
+        rotate: -40deg;
+        position: absolute;
+    }
+    
+    .yellow-stem {
+        top: 450px;
+        rotate: 20deg;
+        right: 0px;
+        position: absolute;
+    }
+    
+    .two-pinks {
+        top: 200px;
+        right: 0px;
+        position: absolute;
+        width: 15%;
+    }
+    
+    .purple-stem {
+        top: 350px;
+        left: 30px;
+        position: absolute;
+        width: 20%;
+    
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .pink-stem {
+        top: 100px;
+        rotate: -40deg;
+        position: absolute;
+    }
+    
+    .yellow-stem {
+        top: 450px;
+        rotate: 20deg;
+        right: 0px;
+        position: absolute;
+    }
+    
+    .two-pinks {
+        top: 200px;
+        right: 0px;
+        position: absolute;
+        width: 15%;
+    }
+    
+    .purple-stem {
+        top: 350px;
+        left: 30px;
+        position: absolute;
+        width: 20%;
+    
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .pink-stem {
+        top: 50px;
+        rotate: -40deg;
+        position: absolute;
+    }
+    
+    .yellow-stem {
+        top: 450px;
+        rotate: 20deg;
+        right: 0px;
+        position: absolute;
+    }
+    
+    .two-pinks {
+        top: 200px;
+        right: 0px;
+        position: absolute;
+        width: 15%;
+    }
+    
+    .purple-stem {
+        top: 350px;
+        left: 30px;
+        position: absolute;
+        width: 20%;
+    
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .pink-stem {
+        top: 50px;
+        rotate: -40deg;
+        position: absolute;
+    }
+    
+    .yellow-stem {
+        top: 450px;
+        rotate: 20deg;
+        right: 0px;
+        position: absolute;
+    }
+    
+    .two-pinks {
+        top: 200px;
+        right: 0px;
+        position: absolute;
+        width: 15%;
+    }
+    
+    .purple-stem {
+        top: 350px;
+        left: 30px;
+        position: absolute;
+        width: 20%;
+    
+    }
+}
+
+@media (min-width: 1401px) {
+    .pink-stem {
+        top: 50px;
+        rotate: -40deg;
+        position: absolute;
+    }
+    
+    .yellow-stem {
+        top: 450px;
+        rotate: 20deg;
+        right: 0px;
+        position: absolute;
+    }
+    
+    .two-pinks {
+        top: 200px;
+        right: 0px;
+        position: absolute;
+        width: 15%;
+    }
+    
+    .purple-stem {
+        top: 350px;
+        left: 30px;
+        position: absolute;
+        width: 20%;
+    
+    }
+}
+
+
+
+
+
+
+/* -
+----------------------------------------------
+--                                          --
+--          About CSS                       --
+--                                          --
+----------------------------------------------
+- */
+
+
+
+
+.about-container {
+    margin-top: 10%;
+    padding: 0 10%;
+    background-color: aqua;
+}
+
+
+.headshot {
+    position: relative;
+    width: 100%;
+    top: 70px;
+}
+
+
+.about {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    line-height: 1rem;
+    margin: 0 0 3% 0;
+}
+
+.robert-paragraph {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    font-size: 1 rem;
+    line-height: 2rem;
+}
+
+@media (max-width: 768px) {
+   
+
+    .headshot {
+        position: relative;
+        width: 30%;
+
+    }
+
+    .mid {
+        padding: 10%;
+    }
+
+    
+}
+
+/* -
+----------------------------------------------
+--                                          --
+--          Work CSS                        --
+--                                          --
+----------------------------------------------
+- */
+
+@media (min-width: 0px) and (max-width: 576px) {
+
+    .work-container {
+        padding: 10% 0%;
+        text-align: center;
+        background-color: rgb(0, 255, 55);
+    }
+
+
+
+
+    .nav-pills {
+        --bs-nav-pills-border-radius: 100rem;
+        --bs-nav-pills-link-active-color: #ffffff;
+        --bs-nav-pills-link-active-bg: #000000;
+        width: 100%;
+        margin: 10% auto;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nav-link {
+        color: #000;
+        font-family: 'Outfit', sans-serif;
+      }
+
+      h5 {
+        font-family: 'Spline Sans', sans-serif;
+        margin: 2% auto;
+    }
+
+    .sample-shot {
+        position: relative;
+        width: 50%;
+        border-radius: 16px;
+    }
+
+}
+
+
+
+.card-title {
+    text-decoration: none;
+}
+
+.work-tiles {
+    margin-top: 80px;
+}
+
+
+
+
+
+/* -
+----------------------------------------------
+--                                          --
+--          Form CSS                        --
+--                                          --
+----------------------------------------------
+- */
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input {
+    margin-bottom: 8px;
+    border-color: #000;
+  }
+
+  .form-signin textarea {
+    margin-bottom: 40px;
+    border-color: #000;
+  }
+
+  .contact-title {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+  }
+
+  .contact-message {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    font-size: 1 rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 24px;;
+  }
+
+  .form-signin button {
+    width: 150px;
+    float: right;
+
+  }
+
+@media (min-width: 100px) and (max-width: 767px) {
+    .contact-me{
+        background-color: rgb(250, 141, 8);
+        padding: 10% 0%;
+    }
+
+    .form-signin {
+        background-color: aqua;
+        max-width: 80%;
+      }
+
+
+}
+
+@media (min-width: 768px)  {
+    .contact-me{
+        background-color: rgb(164, 39, 226);
+        padding: 10% 15%;
+    }
+
+    .form-signin {
+        max-width: 60%;
+      }
+    
+}
+
+  
