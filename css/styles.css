@@ -557,6 +557,7 @@ img{
   .contact-title {
     font-family: 'Outfit', sans-serif;
     text-align: center;
+    font-size: 10rem;
   }
 
   .contact-message {
@@ -576,12 +577,10 @@ img{
 
 @media (min-width: 100px) and (max-width: 767px) {
     .contact-me{
-        background-color: rgb(250, 141, 8);
         padding: 10% 0%;
     }
 
     .form-signin {
-        background-color: aqua;
         max-width: 80%;
       }
 
@@ -590,7 +589,6 @@ img{
 
 @media (min-width: 768px)  {
     .contact-me{
-        background-color: rgb(164, 39, 226);
         padding: 10% 15%;
     }
 
