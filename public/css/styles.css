@@ -4,12 +4,22 @@
 
 .navbar-brand {
     font-family: 'Rubik Puddles', cursive;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
+
+.nav-link{
+    font-family: 'Outfit', sans-serif;
+}
+
 
 h3 {
     font-family: 'Outfit', sans-serif;
     font-size: 2rem;
+}
+
+.page-title {
+    margin-bottom: 7%;
+    text-align: center;
 }
 
 
@@ -365,7 +375,7 @@ img{
 
 .about {
     font-family: 'Outfit', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 1rem;
     margin: 0 0 3% 0;
 }
@@ -373,9 +383,10 @@ img{
 .robert-paragraph {
     font-family: 'Outfit', sans-serif;
     font-weight: 100;
-    font-size: 1 rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
     width: 100%;
+    padding-top: 2%;
 }
 
 
@@ -411,7 +422,7 @@ img{
 .work-container {
     /* background-color: blueviolet; */
     text-align: center;
-    margin: 10% 5%;
+    margin: 0% 0%;
 }
 
 .nav-pills {
@@ -433,21 +444,79 @@ img{
     border-style: none;
   }
 
-  .card {
-    border: #fff;
-    border-bottom-right-radius: 4px;
-  }
-
   .tiles {
     margin-top: 40px;
+    margin-bottom: 30%;
   }
+
+  .tiles-home {
+    margin-top: 40px;
+    margin-bottom: 5%;
+  }
+
+  .samples {
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 0%;
+    border-color: #fff;
+  }
+
+  .thumb{
+    border-radius: 4px;;
+  }
+
+  .modal-body {
+    padding: 5%;
+  }
+
+  .modal-header{
+    border-style:none ;
+  }
+
+  .modal-title {
+    font-family: 'Outfit', sans-serif;
+  }
+
 
 .view-more {
     margin-top: 40px;
 }
 
+/* -
+----------------------------------------------
+--                                          --
+--          Blogs CSS                        --
+--                                          --
+----------------------------------------------
+- */
+
+.blog-section {
+    text-align: center;
+    margin: 10% 5%;
+}
+.entry {
+    text-decoration: none;
+    color: #000;
+}
+.blog-thumb{
+    width: 100%;
+}
 
 
+.card-title {
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-text {
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+}
+
+.blog-entry {
+    margin-bottom: 5%;;
+}
 
 
 /* -
@@ -460,16 +529,16 @@ img{
 
 
 @media (min-width: 100px) and (max-width: 767px) {
-    .contact-me{
-        padding: 10% 0%;
+    .contact-me, .blog-container, .work-container{
+        padding: 5% 0%;
     }
 
 
 }
 
 @media (min-width: 768px)  {
-    .contact-me{
-        padding: 10% 15%;
+    .contact-me, .blog-container, .work-container{
+        padding: 2% 15%;
     }
     
 }
